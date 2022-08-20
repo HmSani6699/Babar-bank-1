@@ -10,4 +10,4 @@ document.getElementById('submit-button').addEventListener('click', function () {
     }
     nameInput.value = '';
     passwordInput.value = '';
-})
+});
