@@ -14,7 +14,7 @@
 </head>
 <header>
     <h1 class="text-5xl text-center mt-10">
-        Let's get some<span
+        Let's get some <span
             class="text-blue-500 font-bold">Mooooney</span>!!
     </h1>
 </header>
@@ -27,19 +27,24 @@
                     class="mt-8 bg-purple-600 px-8 py-5 text-white rounded-lg">
                     <h2 class="text-2xl">Deposit
                     </h2>
-                    <h4 class="text-5xl">$00</h4>
+                    <h4 class="text-5xl">$<span
+                            id="deposit-total">00</span>
+                    </h4>
                 </div>
                 <div
                     class="mt-8 bg-red-600 px-8 py-5 text-white rounded-lg">
                     <h2 class="text-2xl">Witdrow
                     </h2>
-                    <h4 class="text-5xl">$00</h4>
+                    <h4 class="text-5xl">$<span
+                            id="witdrow-total">00</span>
+                    </h4>
                 </div>
                 <div
                     class="mt-8 bg-lime-600 px-8 py-5 text-white rounded-lg">
                     <h2 class="text-2xl">Balance
                     </h2>
-                    <h4 class="text-5xl">$1200
+                    <h4 class="text-5xl">$<span
+                            id="balance-total">1200</span>
                     </h4>
                 </div>
             </div>
@@ -57,7 +62,7 @@
                         type="email" name=""
                         id="deposit-input"
                         placeholder="$ get your deposit money">
-                    <button id="submit-button"
+                    <button id="deposit-button"
                         class="text-white mt-4 bg-orange-500 px-4 py-2 rounded-lg">Deposit</button>
 
                 </div>
@@ -79,6 +84,7 @@
             </div>
         </section>
     </main>
+    <script src="js/bank.js"></script>
 </body>
 
 </html>
