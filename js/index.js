@@ -8,6 +8,6 @@ document.getElementById('submit-button').addEventListener('click', function () {
     if (nameInputValue == 'mdsani' && passwordInputValue == '12345') {
         window.location.href = 'bank.html'
     }
-
-
+    nameInput.value = '';
+    passwordInput.value = '';
 })
